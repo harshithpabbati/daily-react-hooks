@@ -8,8 +8,8 @@ import {
 import React, { useCallback, useEffect } from 'react';
 import { atom, selectorFamily, useRecoilCallback } from 'recoil';
 
-import type { Paths } from '../types/paths';
-import type { PathValue } from '../types/pathValue';
+import type { Paths } from './types/paths';
+import type { PathValue } from './types/pathValue';
 import { useDaily } from './hooks/useDaily';
 import { useDailyEvent } from './hooks/useDailyEvent';
 import { useThrottledDailyEvent } from './hooks/useThrottledDailyEvent';

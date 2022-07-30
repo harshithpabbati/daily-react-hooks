@@ -1,6 +1,6 @@
 import { useRecoilValue } from 'recoil';
 
-import type { Paths } from '../../types/paths';
+import type { Paths } from '../types/paths';
 import {
   ExtendedDailyParticipant,
   participantPropertyState,
